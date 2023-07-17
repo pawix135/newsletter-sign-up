@@ -5,6 +5,17 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        primary: "hsl(4, 100%, 67%)",
+        "dark-slate": "hsl(235, 18%, 26%)",
+        charcoal: "hsl(231, 7%, 60%)",
+      },
+    },
+  },
   plugins: [],
 };
+
+// - Mobile: 375px
+// - Desktop: 1440px
